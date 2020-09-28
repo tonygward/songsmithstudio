@@ -28,6 +28,7 @@ h1{
     text-align:right;
     background-color:inherit;
     color:#505050;
+    padding-bottom: 10px;
 }
 
 h2{
@@ -56,7 +57,7 @@ img{
     margin:0 auto 15px auto;
     width:700px;
     padding:10px;
-    background:#ffffff url('../images/logo-guitar.png') bottom left no-repeat;
+    background:#ffffff url('../images/logo-guitar.png') top left no-repeat;
     color:#303030;
     border:20px solid #505050;
 }
