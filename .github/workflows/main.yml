@@ -19,4 +19,4 @@ jobs:
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
       - run: gsutil -m rsync -d -c -r . gs://songsmithstudio.uk
-      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=1800" gs://songsmithstudio/*.html
+      - run: gsutil -m setmeta -h "Cache-Control:public, max-age=1800" gs://songsmithstudio.uk/*.html
